@@ -1,0 +1,12 @@
+{
+  "name": "adspy-scraper",
+  "version": "1.0.0",
+  "description": "Facebook Ads Library Scraper for AdSpy Indo",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
