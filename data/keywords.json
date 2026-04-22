@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ebook",
+    "keyword": "ebook",
+    "maxResults": 2000,
+    "isActive": true,
+    "lastScrapedAt": null
+  },
+  {
+    "id": "template",
+    "keyword": "template",
+    "maxResults": 2000,
+    "isActive": true,
+    "lastScrapedAt": null
+  },
+  {
+    "id": "panduan",
+    "keyword": "panduan",
+    "maxResults": 1500,
+    "isActive": true,
+    "lastScrapedAt": null
+  },
+  {
+    "id": "kursus-online",
+    "keyword": "kursus online",
+    "maxResults": 2000,
+    "isActive": true,
+    "lastScrapedAt": null
+  },
+  {
+    "id": "bisnis-online",
+    "keyword": "bisnis online",
+    "maxResults": 1500,
+    "isActive": true,
+    "lastScrapedAt": null
+  }
+]
