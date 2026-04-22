@@ -4,11 +4,47 @@
 
 Scrape Facebook Ads Library → Analyze data → Detect winning products.
 
+## Prerequisites
+
+### Install Node.js (jika belum ada)
+
+**Windows:**
+1. Download dari https://nodejs.org/ (pilih LTS version)
+2. Jalankan installer, next-next sampai selesai
+3. Buka Command Prompt, cek: `node -v` dan `npm -v`
+
+**Mac:**
+```bash
+brew install node
+```
+
+**Linux (Ubuntu/Debian):**
+```bash
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+**Atau pakai nvm (recommended):**
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+nvm install 22
+nvm use 22
+```
+
+Pastikan Node.js v18+ terinstall:
+```bash
+node -v   # harus v18 atau lebih
+npm -v    # harus v9 atau lebih
+```
+
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Clone & Install
 
 ```bash
+git clone https://github.com/yayastartcode/adspy-indo.git
+cd adspy-indo
+
 # Backend
 cd server
 npm install
